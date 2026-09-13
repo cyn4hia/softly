@@ -1,0 +1,69 @@
+{
+  "id": "a12eba9012",
+  "title": "strawberry drift",
+  "prompt": "dreamy pink gradient waves with floating soft orbs, slow and cozy, gentle pulse toward the end",
+  "tags": [
+    "aesthetic",
+    "cozy"
+  ],
+  "inspo": [
+    {
+      "source": "examples",
+      "path": "bloom-drift.mp4",
+      "name": "bloom-drift"
+    }
+  ],
+  "sound": {
+    "source": "examples",
+    "path": "soft-chime.wav",
+    "name": "soft-chime"
+  },
+  "created_at": "2026-07-23T23:21:17+00:00",
+  "updated_at": "2026-07-23T23:22:56+00:00",
+  "versions": [
+    {
+      "id": "4bf723297f",
+      "number": 1,
+      "status": "ready",
+      "provider": "mock",
+      "media": {
+        "source": "generated",
+        "path": "a12eba9012/v1.mp4",
+        "name": "v1"
+      },
+      "note": "no Anthropic credentials found — set ANTHROPIC_API_KEY (or run `ant auth login`) and restart softly to generate for real — fell back to mock. mock first take: echoed inspo clip 'bloom-drift' as a stand-in — the claude provider will generate for real once connected.",
+      "code": null,
+      "log": "",
+      "instructions": "",
+      "created_at": "2026-07-23T23:21:17+00:00",
+      "feedback": [
+        {
+          "id": "0ca98832d0",
+          "rating": 4,
+          "text": "love the palette, but the motion feels too static — more drift in the orbs and a softer ending please",
+          "aspects": {
+            "visuals": "up"
+          },
+          "created_at": "2026-07-23T23:22:02+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b3931fc194",
+      "number": 2,
+      "status": "ready",
+      "provider": "mock",
+      "media": {
+        "source": "generated",
+        "path": "a12eba9012/v2.mp4",
+        "name": "v2"
+      },
+      "note": "no Anthropic credentials found — set ANTHROPIC_API_KEY (or run `ant auth login`) and restart softly to generate for real — fell back to mock. mock revised take: echoed inspo clip 'bloom-drift' as a stand-in — the claude provider will generate for real once connected.",
+      "code": null,
+      "log": "",
+      "instructions": "keep the same palette, add slow drifting orbs",
+      "created_at": "2026-07-23T23:22:56+00:00",
+      "feedback": []
+    }
+  ]
+}

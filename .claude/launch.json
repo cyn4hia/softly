@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "softly",
+      "runtimeExecutable": "uv",
+      "runtimeArgs": ["run", "softly"],
+      "port": 8765
+    },
+    {
+      "name": "petal-rift",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8471", "--directory", "/Users/cindyzhou/coding/petal-rift"],
+      "port": 8471
+    }
+  ]
+}

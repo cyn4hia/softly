@@ -1,0 +1,19 @@
+# copy this file to config/settings.yaml (gitignored) and fill in your paths.
+# your own videos are only ever *read* from these folders — softly never copies
+# them into the repo, and the paths themselves never get committed.
+
+library:
+  videos_dir: ~/Movies/my-content   # your private video folder (outside the repo)
+  sounds_dir: ~/Music/sounds        # optional: local sound library
+
+generation:
+  provider: claude                  # claude = Fable 5 writes the animation code; mock = echoes inspo
+  model: claude-fable-5
+  effort: xhigh                     # low | medium | high | xhigh | max — depth vs speed
+  fallback_model: claude-opus-4-8   # retried here if fable declines; leave empty to disable
+  # credentials come from the environment (ANTHROPIC_API_KEY or `ant auth login`),
+  # never from this file — keys must not live in the repo.
+
+server:
+  host: 127.0.0.1
+  port: 8765

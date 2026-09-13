@@ -1,0 +1,19 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# local settings — holds paths to private folders on this machine, never committed
+config/settings.yaml
+
+# generated video outputs — large binaries; the learning metadata about them
+# (prompts, versions, feedback) is what gets tracked, under data/learning/
+data/generated/
+
+# local claude-code settings
+.claude/settings.local.json
+
+# macos
+.DS_Store
